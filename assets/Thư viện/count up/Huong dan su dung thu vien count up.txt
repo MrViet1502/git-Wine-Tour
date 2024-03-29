@@ -1,0 +1,15 @@
+Đặt tên class chứa số cần count up là 'count'
+
+Chèn file script trước thẻ đóng của thẻ body theo thứ tự sau:
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="duongdan/jquery.waypoints.min"></script>
+<script src="duongdan/counterup.js"></script>
+
+<script>
+	$('.count').countUp({
+            delay: 10,
+            time: 1500
+        });
+
+</script>

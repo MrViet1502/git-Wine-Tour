@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" >
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/Thư viện/Grid.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel='stylesheet' href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+
+    <title>Demo Wine Tour</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__info">
+            <ul class="header__info-list">
+                <li id="Destinations" class="header__info-list-item">
+                    <a href="mailto:setsail@qode.com" class="header__info-item-link" >
+                        <i class="header__info-item-icon ti-email"></i>
+                        <span>setsail@qode.com</span>
+                    </a>
+                </li>
+                <li class="header__info-list-item">
+                    <a href="tel:1 562 867 5309" class="header__info-item-link">
+                        <i class="header__info-item-icon fas fa-phone-alt"></i>
+                        <span>1 562 867 5309</span>
+                    </a>
+                </li>
+                <li class="header__info-list-item">
+                    <a href="#" class="header__info-item-link">
+                        <i class="header__info-item-icon ti-location-pin"></i>
+                        <span>Broadway & Morris St, New York</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-wrap">
+            <div class="header__contact">
+                <ul class="header__contact-list">
+                    <li class="header__contact-list-item">
+                        <a href="#" class="header__contact-item-link">
+                            <i class="header__contact-item-icon fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="header__contact-list-item">
+                        <a href="#" class="header__contact-item-link">
+                            <i class="header__contact-item-icon fab fa-pinterest-p"></i>
+                        </a>
+                    </li>
+                    <li class="header__contact-list-item">
+                        <a href="#" class="header__contact-item-link">
+                            <i class="header__contact-item-icon fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="header__contact-list-item">
+                        <a href="#" class="header__contact-item-link">
+                            <i class="header__contact-item-icon fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__language">
+                <div class="header__language-current">English
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                
+                <ul class="header__language-list">
+                    <li class="header__language-list-item">
+                        <a href="" class="header__language-list-item-link underline-animation-white">French</a>
+                    </li>
+                    <li class="header__language-list-item">
+                        <a href="" class="header__language-list-item-link underline-animation-white">German</a>
+
+                    </li>
+                    <li class="header__language-list-item">
+                        <a href="" class="header__language-list-item-link underline-animation-white">Italian</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="header__user">
+                <a href="" class="header__user-link">
+                    <img src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/122892330_1329552040720205_5933102292458959141_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=7lVUsUuyBkoAX8_zD3f&_nc_ht=scontent-hkg4-1.xx&oh=06bfb71792282238db1d68442958f762&oe=61270DF9" alt="" class="header__user-img">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-shortcut">
+                <div class="related active-sidebar-shortcut">
+                    <i class="related-icon fas fa-chevron-circle-left"></i>
+                    <span>RELATED</span>
+                </div>
+                <a href="" class="buy-now-link">
+                    <div class="buy-now">
+                        <i class="buy-icon fas fa-shopping-cart "></i>
+                        <SPAN>BUY NOW</SPAN>
+                    </div>
+                </a>
+            </div>
+            <div class="related-layout">
+                <div class="related-container">
+                    <a href="" class="logo-link">Qode Interactive</a>
+                    <p class="realated-heading">RELATED THEMES</p>
+                    <ul class="related-list">
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                        <li class="related-item"><a href="" class="related-item__link">
+                            <img src="https://previews.customer.envatousercontent.com/files/327431833/00_preview.__large_preview.png" alt="" class="related-item__link-img">
+                            <p class="related-item__link-img-caption">Augustine</p>
+                            <div class="related-item__link-description">
+                                <span class="related-item__link-description-category">travel & hotels</span>
+                                <span class="related-item__link-description-price">$79</span>
+                            </div>
+                        </a></li>
+                    </ul>
+                    <a href="" class="related-view-all">
+                        <span>VIEW ALL QODE THEMES</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+                <div class="icon-in-related-layout">
+                        <i class="close-related-layout-icon fas fa-arrow-right"></i>
+                        <a href="" class="buy-now-link">
+                            <i class="icon-in-related-layout-buy fas fa-shopping-cart"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="chat-btn">
+                <i class="far fa-comment"></i>
+                <span>Chat</span>
+            </div>
+            <div class="chat-layout">
+                    <div class="chat-layout-heading">
+                        <span class="chat-heading__title">Live Chat</span>
+                        <div class="chat-heading-icon">
+                            <a href="" class="open-new-window-chat">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <i class="mini-window far fa-window-minimize "></i>
+                        </div>
+                        
+                    </div>
+                        <div class="chat-layout-name">
+                            <h3>Qode Interactive</h3>
+                            <span>Pre-Sale Questions</span>
+                        </div>
+                        <div class="chat-content">                            
+                            <div class="chat-content-text"></div>
+                        </div>
+                        <form class="chat-input-layout">
+                            <textarea class="chat-input"placeholder="Type a message here..." name="message" autofocus="autofocus" id="" cols="35" rows="3"></textarea>
+                        </form>
+                        <div class="chat-layout-footer">
+                            <a href="" class="copy-right-app-chat-link">zendesk</a>
+                            <div class="wrap-icon-chat-footer">
+                                <i class="end-chat-icon fas fa-sign-out-alt "></i>
+                                <i class="attach-file-icon fas fa-paperclip "></i>
+                                <i class="option-icon fas fa-ellipsis-h "></i>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="grid wide">
+            <div class="brand">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-centered.png" alt="" class="brand-img">
+            </div>
+            <!-- nav bar  -->
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <!-- home  -->
+                    <li id="home" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary active ">Home
+                            <ul class="menu-list menu-list-home">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Travel Agency</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Winter Holidays</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Exotic Destinations</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Summer Holidays</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">City Tours</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">New Year Trips</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">Destinations Carousel</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link  active">Wine Tours</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">Vacation Showcase</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">Landing</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <!-- Pages  -->
+                    <li id="pages" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary ">Pages
+                            <ul class="menu-list menu-list-pages">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">About Us</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">What We Offer</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Our Team</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Get In Touch</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">Contact US</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">FAQ Page</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link">Comming Soon</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="underline-animation-primary menu-list-item__link ">Error Page</a>
+                                </li>
+                            </ul>
+                        </a>
+
+                    </li>
+                    <!-- Destinations  -->
+                    <li id="Destinations" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary ">Destinations
+                            <ul class="menu-list menu-list-Destinations">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Destinations List</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Destinations Slider</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Destinations Item</a>
+                                </li>
+                            </ul>
+                        </a>
+
+                    </li>
+                    <!-- Tours  -->
+                    <li id="Tours" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary ">Tours
+                            <ul class="menu-list menu-list-Tours">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Standard List</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Gallery List</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Split List</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Tour Item</a>
+                                </li>
+                            </ul>
+                        </a>
+
+                    </li>
+                    <!-- Blog -->
+                    <li id="Blog" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary ">Blog
+                            <ul class="menu-list menu-list-Blog">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-list-item__link underline-animation-primary">Blog Masonry</a>
+                                </li>
+                                <li class="menu-list-item ">
+                                    <div id="sub-menu__std" class="blog__sub-menu">
+                                        <a href="#" class=" menu-list-item__link underline-animation-primary">
+                                            <i class="fas fa-chevron-right menu-list-item--icon"></i>
+                                            <p>Blog Standard</p> 
+                                        </a>
+                                        <ul class="menu-list blog__sub-menu-std-list">
+                                            <li class="blog__sub-menu-std-item ">
+                                                <a href="" class="menu-list-item__link underline-animation-primary ">Right Sidebar</a>
+                                            </li>
+                                            <li class="blog__sub-menu-std-item ">
+                                                <a href="" class="menu-list-item__link underline-animation-primary ">Left Sidebar</a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-std-item ">
+                                                
+                                                <a href="" class="menu-list-item__link underline-animation-primary ">Without Sidebar</a>
+                                                
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item ">
+                                    <div id="sub-menu__post-type" class="blog__sub-menu">
+                                        <a href="#" class="menu-list-item__link underline-animation-primary">
+                                            <div>
+                                                <span>Post Types</span>  
+                                                <i class="fas fa-chevron-right menu-list-item--icon"></i>
+
+                                            </div>
+                                        </a>
+                                        <ul class="menu-list blog__sub-menu-post_type-list">
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Standard </a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Gallery </a>
+                                                
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Link </a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Quote </a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Video </a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">Audio </a>
+
+                                            </li>
+                                            <li class="blog__sub-menu-post_type-item ">
+                                                <a href="#" class="menu-list-item__link underline-animation-primary">No Sidebar </a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </a>
+
+                    </li>
+                    <!-- Shop  -->
+                    <li id="Shop" class="navbar-item">
+                        <a href="" class="navbar-item-link underline-animation-primary">Shop 
+                            <ul class="menu-list-Shop ">
+                                <li class="menu-list-item">
+                                    <a href="#"  class="float-right menu-list-item__link underline-animation-primary">ProductList</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Product Single</a>
+                                </li>
+                                <!-- Shop layouts  -->
+                                <li class="menu-list-item">
+                                    <a href="#"  class="float-right menu-list-item__link ">
+                                        <i class="fas fa-chevron-left left-arrow-icon"></i>
+                                        <span class="underline-animation-primary">Shop Layouts</span> 
+                                    </a>
+                                    <ul class="sub-menu__shop sub-menu__shop-layouts-list ">
+                                        <li class="sub-menu__shop-layouts-list-item">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Three Columns</a>
+    
+                                        </li>
+                                        <li class="sub-menu__shop-layouts-list-item">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Four Columns</a>
+    
+                                        </li>
+                                        <li class="sub-menu__shop-layouts-list-item">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Full width</a>
+    
+                                        </li>
+                                    </ul>
+                                </li>
+                                    
+                                <!-- shop pagse  -->
+                                <li class="menu-list-item">
+                                    <a href="#"  class="float-right menu-list-item__link">
+                                        <i class="fas fa-chevron-left left-arrow-icon"></i>
+                                        <span class="underline-animation-primary">Shop Pages</span> 
+                                    </a>
+                                    <ul class="sub-menu__shop sub-menu__shop-pages-list ">
+                                        <li class="sub-menu__shop-pages-item ">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">My account</a>
+                                        </li>
+                                        <li class="sub-menu__shop-pages-item ">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Cart</a>
+                                        </li>
+                                        <li class="sub-menu__shop-pages-item ">
+                                            <a href="#"  class="float-right menu-list-item__link underline-animation-primary">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <!-- Elemnets  -->
+                    <li id="Elements">
+                            <a  href="" class="navbar-item-link underline-animation-primary">Elements
+                                <div class="Elements-menu">
+                                        <div class="col l-3">
+                                            <a href="" class="menu-list-item__link underline-animation-primary Elenments-menu__heading">FEATURED</a>
+                                            <ul class="Elements-menu-list ">
+                                                <li class="Elements-menu-list-item "> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary  menu-list-item__link">Tour List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Tour Carousel</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Tours Filter</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination With Tours</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination Fullscreen Slider</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Fullscreen Sections</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Reviews Carousel</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col l-3">
+                                            <a href="" class="menu-list-item__link underline-animation-primary Elenments-menu__heading">FEATURED</a>
+                                            <ul class="Elements-menu-list ">
+                                                <li class="Elements-menu-list-item "> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary  menu-list-item__link">Tour List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Tour Carousel</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Tours Filter</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination With Tours</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Destination Fullscreen Slider</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Fullscreen Sections</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Reviews Carousel</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col l-3">
+                                            <a href="" class="menu-list-item__link underline-animation-primary Elenments-menu__heading">PRESENTATION</a>
+                                            <ul class="Elements-menu-list ">
+                                                <li class="Elements-menu-list-item "> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary  menu-list-item__link">Team</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Blog List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Shop List</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Testimonials</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Banner</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Clients</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Parallax Section</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Video Button</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col l-3">
+                                            <a href="" class="menu-list-item__link underline-animation-primary Elenments-menu__heading">TYPOGRAPHY</a>
+                                            <ul class="Elements-menu-list ">
+                                                <li class="Elements-menu-list-item "> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary  menu-list-item__link">Headings</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Columns</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Section Title</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Blockquote</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Dropcaps</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Highlights</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Icon with text</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Separators</a>
+                                                </li>
+                                                <li class="Elements-menu-list-item"> 
+                                                    <a href="" class="Elements-menu-item__link underline-animation-primary menu-list-item__link">Custom Font</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Slicer  -->
+            <div class="slicer wow fadeInUp">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="slicer-item" style="background-image:url(https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-5.jpg);" >
+                            <img class="slide1_img1" src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-2.png"  alt="">
+                        </div>
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-6.jpg" alt="" class="slicer-item2-img">
+                      
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="slicer-item" style="background-image:url(https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-1.jpg);">
+                            <img class="slide1_img1" src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-img-1.png">
+                        </div>
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-2.jpg" alt="" class="slicer-item2-img">
+                      </div>
+                      
+                      <div class="swiper-slide">
+                        <div class="slicer-item" style="background-image:url(https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-3.jpg">
+                            <img class="slide1_img1" src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-img-1.png" alt="">
+                        </div>
+                        <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-4.jpg" alt="" class="slicer-item2-img">
+                      </div>
+                      ...
+                    </div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="content">
+                <!-- popular tour  -->
+                <div class="popular-tour wow fadeInUp">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-1.png" alt="" class="popular-tour-img">
+                    <div class="popular-text">
+                        <h1 class="popular-text__heading">Our Popular Tours</h1>
+                        <p class="popular-text__body">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.</p>
+                        <div class="bar">
+                            <h3 class="bar-heading-holder">
+                                <span class="bar-holder__title">Countryside</span>
+                                <span class="count number-percent" >76</span>
+                            </h3>
+                            <div class="bar-full-percent">
+                                ""<div id="per-76" class="bar-percent"></div>
+                            </div>
+    
+                            <h3 class="bar-heading-holder">
+                                <span class="bar-holder__title">Vineyard</span>
+                                <span class="count number-percent">92</span>
+                            </h3>
+                            <div class="bar-full-percent">
+                                "" <div id="per-92" class="bar-percent "></div>
+                            </div>
+    
+                            <h3 class="bar-heading-holder">
+                                <span class="bar-holder__title">Wine Tasting</span>
+                                <span class="count number-percent">86</span>
+                            </h3>
+                            <div class="bar-full-percent">
+                                "" <div id="per-86" class="bar-percent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="mountain-img wow fadeInUp">
+                        <img class="mount-img" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-2.jpg" alt="">
+                </div>
+                <!-- best tour  -->
+                <div class="best-tour wow fadeInUp">
+                    <div class="best-tour__content">
+                        <h1 class="best-tour__content-heading">The Best Tours</h1>
+                        <p class="best-tour__content-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+                    </div>
+                    <div class="best-tour__img row">
+                        <div class="col l-3">
+                            <div class="row"></div>
+                                <a href="#" class="wine-festival-link">
+                                    <div class="best-tour__img-item">
+                                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-33-650x650.jpg" alt="" class="effect-img best-tour__img-square ">
+                                            <div class="img-text">
+                                                <h2 class="title">Wine Festival</h2>
+                                                <h2 class="price">$550</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="Champagne">
+                                    <div class="best-tour__img-item">
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-37-650x650.jpg" alt="" class="effect-img best-tour__img-square Champagne_img">
+                                        <div class="img-text">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>
+                                    </div>   
+                                </a>
+                            
+                        </div>
+                        <div class="col l-3 col-2">
+    
+                                <a href="#" class="wine-tasting-link">
+                                    <div class="best-tour__img-item">
+    
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-34-650x650.jpg" alt="" class="effect-img best-tour__img-square">
+                                        <div class="img-text">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>
+                                    </div>   
+                                </a>
+                                <a href="#" class="Villages-link">
+                                    <div class="best-tour__img-item">
+    
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-38-650x650.jpg" alt="" class="effect-img best-tour__img-square Villages_img">
+                                        <div class="img-text">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>  
+                                    </div>   
+                                </a>
+                            
+                        </div>
+                        <div class="col l-3 col-3 ">
+    
+                                <a href="#" class="camping-link">
+                                    <div class="best-tour__img-item">
+    
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-35-650x1300.jpg" alt="" class="effect-img best-tour__img-full-col">
+                                        <div class="img-text change_position">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>   
+                                    </div>
+                                </a>
+                            </div>
+                        <div class="col l-3 col-4">
+                                
+                                <a href="#" class="harvest-link">
+                                    <div class="best-tour__img-item">
+    
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-36-650x650.jpg" alt="" class="effect-img best-tour__img-square">
+                                        <div class="img-text">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>   
+                                    </div>
+                                </a>
+                                <a href="#" class="Local-wine">
+                                    <div class="best-tour__img-item">
+    
+                                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-39-650x650.jpg" alt="" class="effect-img best-tour__img-square Local-wine_img">
+                                        <div class="img-text">
+                                            <h2 class="title">Wine Festival</h2>
+                                            <h2 class="price">$550</h2>
+                                        </div>   
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-text wow fadeInUp">
+                    <div class="grid-4-full number-text-col">
+                        <h1 class="number-heading count">45</h1>
+                        <h2 class="text-heading">Glasses of Wine</h2>
+                        <p class="text-body">Cap at perspic iatis unde omnis iste natus error sit volup tatem</p>
+                    </div>
+                    <div class="grid-4-full number-text-col">
+                        <h1 class="number-heading count">126</h1>
+                        <h2 class="text-heading">Years of experience</h2>
+                        <p class="text-body">CSop ut perspic iatis ande emnis iste natus error sit volup fatom</p>
+                    </div>
+                    <div class="grid-4-full number-text-col">
+                        <h1 class="number-heading count">452</h1>
+                        <h2 class="text-heading">Unique Wines</h2>
+                        <p class="text-body">Sed ut perspic iatis unde omnis iste natus error sit volup tatem</p>
+                    </div>
+                    <div class="grid-4-full number-text-col">
+                        <h1 class="number-heading count">247</h1>
+                        <h2 class="text-heading">Sorts of Wine</h2>
+                        <p class="text-body">Cap of qerspic iatis ande umnis lcte natus error sit volup fatem
+    
+                        </p>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="wrap-bg-icon">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-video-button-img.jpg" alt="" class="video-bg">
+                        <img class="play-btn" src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/play-button.png"></img>
+                    </div>
+                    <div class="modal-video">
+                        <iframe class="video-player" src="https://player.vimeo.com/video/127347999?title=0&amp;byline=0&amp;portrait=0;" width="960/embed/?moog_width=960" height="540" frameborder="no"></iframe>
+                    </div>
+                </div>
+                <div class="Our-Popular-Tours">
+                    <div class="Our-Popular-Tours__content">
+                        <div class="Our-Popular-Tours__content-head">
+                            <h1 class="content-head__title">Our Popular Tours</h1>
+                            <p class="content-head__body">
+                                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo</p>
+                        </div>
+                        <div class="content_text">
+                            <div class="left-col">
+                                <div class="content_text-wrap pt-right-20">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-1.png" alt="">
+                                    <p class="text-next-to-img">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    </p>
+                                </div>
+                                <div class="content_text-wrap pt-right-20">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-4.png" alt="">
+                                    <p class="text-next-to-img">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            <div class="right-col">
+                                <div class="content_text-wrap">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-3.png" alt="">
+                                    <p class="text-next-to-img">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    </p>
+                                </div>
+                                <div class="content_text-wrap">
+                                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-2.png" alt="">
+                                    <p class="text-next-to-img">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="Our-Popular-Tours__img">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="back-top-page-btn wow fadeInUp">TOP</div>
+        <div class="grid wide">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="col l-3">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt="" class="footer-logo">
+                        <p class="footer-sologan">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+                        <ul class="footer__info-list">
+                            <li class = "footer__info-item"><a href="" class="footer__item-link">
+                                <i class="ti-email footer__info-item-icon"></i>
+                                <span >setsail@qode.com</span>
+                            </a></li>
+                            <li class = "footer__info-item"><a href="" class="footer__item-link">
+                                <i class="fas fa-phone-alt footer__info-item-icon"></i>
+                                <span > 1 562 867 5309</span>
+                            </a></li>
+                            <li class = "footer__info-item"><a href="" class="footer__item-link">
+                                <i class="ti-location-pin footer__info-item-icon"></i>
+                                <span > Broadway & Morris St, New York</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h2 class="heading-footer">Our Recent Posts</h2>
+                        <ul class="post-list">
+                            <li class="post-list-item">
+                                <a href="" class="footer__item-link footer-text">Visit Thailand, Bali And China</a>
+                                <a href="" class="footer__item-link">September 7, 2016</a>
+                            </li>
+                            <li class="post-list-item">
+                                <a href="" class="footer__item-link footer-text">The Sound Of Our Jungle</a>
+                                <a href="" class="footer__item-link">September 7, 2016</a>
+                            </li>
+                            <li class="post-list-item">
+                                <a href="" class="footer__item-link footer-text">New Year, New Resolutions!
+                                </a>
+                                <a href="" class="footer__item-link">September 7, 2016</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h2 class="heading-footer">Subscribe to our Newsletter</h2>
+                        <p class="footer-text">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                        <form action="" class="footer-sub-form">
+                            <i class="fas fa-user icon-email"></i>
+                            <input type="text" name="" required id="" class="form-input" placeholder="Name">
+                            <i class="ti-email icon-name"></i>
+                            <input type="email" name="" required id="" class="form-input" placeholder="Email">
+                            <button type="submit" class="sub-btn">Subscribe </button>
+                        </form> 
+                    </div>
+                    
+                    <div class="col l-3">
+                        <h2 class="heading-footer">Our Instagram</h2>
+                        <p class="footer-text">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p class="footer-text">Powered by @</p>
+                <a href="" class="footer__item-link">Qode Interactive 2018</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        loop: true,
+        autoplay: {
+        delay: 3000,
+        },
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+        swiper.on('slideChange', function () {
+            document.querySelector('.slide1_img1').classList.add('wow','fadeInRight')
+        })
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/Thư viện/count up/jquery.waypoints.min.js"></script>
+    <script src="./assets/Thư viện/count up/counterup.js"></script>
+    <script>
+        $('.count').countUp({
+                delay: 10,
+                time: 2000
+            });
+    
+    </script>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+    <script src="./assets/Thư viện/WOW-master/WOW-master/src/WOW.js"></script>
+    <script> new WOW().init(); </script>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
